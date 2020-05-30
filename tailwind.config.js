@@ -2,16 +2,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "#FAF6F6"
+        primary: "#9c92ac",
+        secondary: "#dfdbe5",
+        accent: "#3F3D56"
       },
-      fontFamily: {
-        // montserrat: ["montserrat", "sans-serif"]
-        display: ["montserrat", "sans-serif"],
-        body: ["montserrat", "sans-serif"]
+      textColor: {
+        primary: "#6C63FF"
       }
-      // textColor: {
-      //   primary: "#C2948A"
-      // }
     }
   },
   variants: {},
