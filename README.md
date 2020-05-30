@@ -13,7 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Deployment
 
-The app has been deployed on [Netlify](https://github.com/facebook/create-react-app).
+The app has been deployed on [Netlify](https://elevenyellowhiringbenjamin.netlify.app/).
 
 ### Styling framework used
 
