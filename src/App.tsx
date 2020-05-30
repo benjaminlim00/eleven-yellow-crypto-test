@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 import axios from "axios";
 import { container } from "./constants";
 import { Header } from "./components/Header";
@@ -29,6 +30,17 @@ const App: React.FunctionComponent = () => {
 
   return (
     <main className="bg-white w-screen h-screen">
+      <Helmet>
+        <title>
+          Crypto Rate Checker - Compare cryptocurrency exchange rates within
+          seconds
+        </title>
+        <meta
+          name="A website to hopefully get Benjamin a job"
+          content="Web application"
+        />
+      </Helmet>
+
       <Header />
       <div className={container}>
         <div className="lg:flex lg:mt-20 lg:items-center">
