@@ -16,8 +16,6 @@ export const CurrencyTable: React.FunctionComponent<CurrencyTableProps> = ({
   apiData,
   selectedCurrency
 }: CurrencyTableProps) => {
-  console.log(apiData);
-
   if (apiData) {
     return (
       <table className="mt-12 md:mt-16 mb-12 md:mb-0 table-auto w-full">
