@@ -2,7 +2,7 @@ import React from "react";
 import { RiBitCoinLine, RiMenu3Line } from "react-icons/ri";
 export const Header: React.FunctionComponent = () => {
   return (
-    <div className="py-6 px-4 md:px-16 mb-4 flex items-center bg-accent md:bg-white text-white md:text-black justify-between">
+    <div className="py-6 px-4 md:px-16 mb-4 flex items-center bg-accent md:bg-white text-white md:text-accent md:font-medium justify-between">
       <div className="flex items-center">
         <RiBitCoinLine className="text-3xl lg:text-4xl" />
         <h1 className="ml-1 md:ml-2 uppercase text-lg lg:text-2xl tracking-wide">
