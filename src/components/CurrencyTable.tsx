@@ -22,7 +22,7 @@ export const CurrencyTable: React.FunctionComponent<CurrencyTableProps> = ({
         <thead className="bg-accent text-white">
           <tr>
             <th className="px-4 py-2">Exchange</th>
-            <th className="px-4 py-2">Value(USD)</th>
+            <th className="px-4 py-2">Value</th>
           </tr>
         </thead>
         <tbody>
