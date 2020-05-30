@@ -31,7 +31,7 @@ const App: React.FunctionComponent = () => {
     <main className="bg-white w-screen h-screen">
       <Header />
       <div className={container}>
-        <div className="lg:flex lg:mt-22 lg:items-center">
+        <div className="lg:flex lg:mt-20 lg:items-center">
           <div className="lg:w-1/2">
             <img
               className="max-w-xs mx-auto md:max-w-md xl:max-w-xl"
