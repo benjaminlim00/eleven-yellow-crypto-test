@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { container } from "./constants";
 import { Header } from "./components/Header";
-import DigitalCurrencyIcon from "./resources/digital-currency-icon.png";
+import { ReactComponent as DigitalCurrencyIcon } from "./resources/digital-currency-icon.svg";
 import { CurrencySelector } from "./components/CurrencySelector";
 import { CurrencyTable } from "./components/CurrencyTable";
 import { api } from "./constants";
@@ -33,11 +33,13 @@ const App: React.FunctionComponent = () => {
       <div className={container}>
         <div className="lg:flex lg:mt-20 lg:items-center">
           <div className="lg:w-1/2">
-            <img
+            {/* changed png to svg, no need for svgr as using create react app */}
+            {/* <img
               className="max-w-xs mx-auto md:max-w-md xl:max-w-xl"
               src={DigitalCurrencyIcon}
               alt="digital currency"
-            />
+            /> */}
+            <DigitalCurrencyIcon className="max-w-xs mx-auto md:max-w-md xl:max-w-xl h-auto py-8" />
 
             <div className="mt-3 px-2 py-4 bg-secondary rounded-lg">
               <p className="text-center tracking-wide font-medium text-accent leading-loose md:text-xl lg:px-16">
