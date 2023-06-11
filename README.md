@@ -1,22 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cryptocurrency Exchange Rate Comparison App
 
-In the project directory, you can run:
+## Note: Take-Home Assignment for ElevenYellow
 
-### `npm i`
-
-Installs required dependencies
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### Deployment
-
-The app has been deployed on [Netlify](https://elevenyellowhiringbenjamin.netlify.app/).
-
-### Styling framework used
-
-#### Tailwind CSS
-
-The css is implemented using Tailwind CSS. Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.
+This repository contains my submission for the take-home assignment for the position of Software Engineer at ElevenYellow. The assignment involves building an app that allows users to compare cryptocurrency exchange rates within seconds using the Monedero API.
